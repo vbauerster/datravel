@@ -1,29 +1,25 @@
-
 export class Welcome {
   ulsModel = [
     {
       id: '1',
-      items: ['A', 'B', 'C']
+      items: ['A', 'B', 'C'],
     },
     {
       id: '2',
       items: [1, 2, 3],
-      borderHighlight: true,
-      bgHighlight: false,
-      highlightColor: 'red',
-      highlightTimeout: 200
+      feedback: {
+        bdHighlight: true,
+        bgHighlight: false
+      }
     },
     {
       id: '3',
       items: ['X', 'Y', 'Z'],
-      borderHighlight: true,
-      bgHighlight: true,
-      highlightColor: 'red',
-      highlightTimeout: 200
+      feedback: {
+        bdHighlight: true,
+        bgHighlight: true
+      },
+      redundantCopyTo: ['1']
     }
   ];
-
-  submit(event) {
-    console.log(event);
-  }
 }
