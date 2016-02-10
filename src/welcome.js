@@ -1,5 +1,5 @@
 export class Welcome {
-  ulsModel = [
+  model = [
     {
       id: '1',
       items: ['A', 'B', 'C'],

@@ -5,6 +5,7 @@ import {BindingSignaler} from 'aurelia-templating-resources';
 export class ListManager {
   @bindable model = [];
   @bindable destList = {};
+  @bindable feedbackTimeout = 100;
 
   constructor(element, bindingSignaler) {
     this.element = element;
@@ -47,7 +48,7 @@ export class ListManager {
     setTimeout(() => {
       this.showFeedback = false;
       this.redrawList();
-    }, 300);
+    }, this.feedbackTimeout);
   }
 
   listStyle(list) {
