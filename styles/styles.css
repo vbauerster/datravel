@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 
+.main {
+  margin-left: 10px;
+}
+
 .test .list {
-    float: left;
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid #000;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #000;
 }
 
 .test .list.bdHighlight {
