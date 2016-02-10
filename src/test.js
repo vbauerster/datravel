@@ -1,4 +1,4 @@
-export class Welcome {
+export class Test {
   model = [
     {
       id: '1',
