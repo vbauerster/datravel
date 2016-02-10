@@ -1,0 +1,20 @@
+<template>
+
+  <form class="pure-form">
+    <div class="test cf">
+      <div class="list" repeat.for="list of model">
+        <label>
+          <input type="radio" model.bind="list" checked.bind="$parent.selectedList" />
+          ${list.id}
+        </label>
+        <ul>
+          <li repeat.for="item of list.items">
+            <button class="pure-button ${isButtonDisabled(list) & signal:'btn-repaint'}"
+              click.delegate="move(item, $index, list)">${item}</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </form>
+
+</template>
