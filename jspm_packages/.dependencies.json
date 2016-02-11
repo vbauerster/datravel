@@ -1,8 +1,5 @@
 {
   "github:systemjs/plugin-text@0.0.3": {},
-  "npm:font-awesome@4.5.0": {
-    "css": "jspm:css@0.1"
-  },
   "github:github/fetch@0.10.1": {},
   "npm:aurelia-bootstrapper@1.0.0-beta.1.1.1": {
     "aurelia-event-aggregator": "npm:aurelia-event-aggregator@^1.0.0-beta.1.1.0",
