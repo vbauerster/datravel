@@ -25,7 +25,9 @@
         "aurelia-templating-router",
         "aurelia-loader-default",
         "aurelia-history-browser",
-        "aurelia-logging-console"
+        "aurelia-logging-console",
+        "purecss/build/base.css!text",
+        "purecss/build/buttons.css!text"
       ],
       "options": {
         "inject": true,
